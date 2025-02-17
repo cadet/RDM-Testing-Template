@@ -29,3 +29,5 @@ RUN apt-get update && apt-get install -y git git-lfs ssh && \
 COPY environment.yml /tmp/environment.yml
 
 RUN conda env update -n base --file /tmp/environment.yml
+RUN pip install 'git+https://github.com/cadet/CADET-RDM.git@3e073dd85c5e54d95422c0cdcc1190d80da9e138'
+RUN pip install --force-reinstall --no-deps  'git+https://github.com/cadet/CADET-RDM.git@3e073dd85c5e54d95422c0cdcc1190d80da9e138'
