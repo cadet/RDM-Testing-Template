@@ -34,3 +34,6 @@ RUN pip install --force-reinstall --no-deps  'git+https://github.com/cadet/CADET
 
 RUN pip install 'git+https://github.com/cadet/CADET-RDM.git@3e073dd85c5e54d95422c0cdcc1190d80da9e138'
 RUN pip install --force-reinstall --no-deps  'git+https://github.com/cadet/CADET-RDM.git@3e073dd85c5e54d95422c0cdcc1190d80da9e138'
+
+RUN pip install 'git+https://github.com/cadet/CADET-RDM.git@3e073dd85c5e54d95422c0cdcc1190d80da9e138'
+RUN pip install --force-reinstall --no-deps  'git+https://github.com/cadet/CADET-RDM.git@3e073dd85c5e54d95422c0cdcc1190d80da9e138'
