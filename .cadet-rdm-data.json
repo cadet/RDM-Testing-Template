@@ -5,9 +5,9 @@
   "output_uuid": "282741e4-a132-4e88-8bf4-eaaf135d4284",
   "cadet_rdm_version": "0.0.34",
   "output_remotes": {
-    "output_folder_name": "output",
-    "output_remotes": {
-      "origin": "git@github.com:ronald-jaepel/rdm_testing_template_output.git"
+  "output_directory_name": "output",
+  "output_remotes": {
+  "origin": "git@github.com:cadet/RDM-Testing-Template.git"
     }
   }
 }
